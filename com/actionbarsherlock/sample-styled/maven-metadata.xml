@@ -3,10 +3,10 @@
   <groupId>com.actionbarsherlock</groupId>
   <artifactId>sample-styled</artifactId>
   <versioning>
-    <release>4.2.0b-emmby</release>
+    <release>4.1.0a-emmby</release>
     <versions>
-      <version>4.2.0b-emmby</version>
+      <version>4.1.0a-emmby</version>
     </versions>
-    <lastUpdated>20130122214159</lastUpdated>
+    <lastUpdated>20130122223533</lastUpdated>
   </versioning>
 </metadata>
