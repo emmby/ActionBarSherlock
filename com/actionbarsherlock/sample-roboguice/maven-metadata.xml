@@ -3,10 +3,10 @@
   <groupId>com.actionbarsherlock</groupId>
   <artifactId>sample-roboguice</artifactId>
   <versioning>
-    <release>4.2.0b-emmby</release>
+    <release>4.1.0a-emmby</release>
     <versions>
-      <version>4.2.0b-emmby</version>
+      <version>4.1.0a-emmby</version>
     </versions>
-    <lastUpdated>20130122214129</lastUpdated>
+    <lastUpdated>20130122223455</lastUpdated>
   </versioning>
 </metadata>
