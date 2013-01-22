@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.actionbarsherlock</groupId>
+  <artifactId>parent</artifactId>
+  <versioning>
+    <release>4.2.0b-emmby</release>
+    <versions>
+      <version>4.2.0b-emmby</version>
+    </versions>
+    <lastUpdated>20130122213929</lastUpdated>
+  </versioning>
+</metadata>
