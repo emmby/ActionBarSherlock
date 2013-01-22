@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.actionbarsherlock</groupId>
-  <artifactId>sample-demos</artifactId>
+  <artifactId>sample-fragments</artifactId>
   <versioning>
     <release>4.2.0b-emmby</release>
     <versions>
       <version>4.2.0b-emmby</version>
     </versions>
-    <lastUpdated>20130122213026</lastUpdated>
+    <lastUpdated>20130122213052</lastUpdated>
   </versioning>
 </metadata>
