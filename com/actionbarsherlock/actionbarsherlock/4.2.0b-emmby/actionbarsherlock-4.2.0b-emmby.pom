@@ -10,7 +10,7 @@
 	<parent>
 		<groupId>com.actionbarsherlock</groupId>
 		<artifactId>parent</artifactId>
-		<version>4.2.0a-emmby</version>
+		<version>4.2.0b-emmby</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -37,33 +37,6 @@
 		<testSourceDirectory>test</testSourceDirectory>
 
 		<plugins>
-
-            <!-- Deploy maven artifacts to github -->
-            <!-- http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github/14013645 -->
-            <plugin>
-                <groupId>com.github.github</groupId>
-                <artifactId>site-maven-plugin</artifactId>
-                <version>0.7</version>
-                <configuration>
-                    <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
-                    <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
-                    <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
-                    <branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
-                    <includes><include>**/*</include></includes>
-                    <repositoryName>ActionBarSherlock</repositoryName>      <!-- github repo name -->
-                    <repositoryOwner>emmby</repositoryOwner>    <!-- github username  -->
-                </configuration>
-                <executions>
-                  <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
-                  <execution>
-                    <goals>
-                      <goal>site</goal>
-                    </goals>
-                    <phase>deploy</phase>
-                  </execution>
-                </executions>
-            </plugin>
-
 
 			<plugin>
 				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
@@ -174,19 +147,5 @@
 		</pluginManagement>
 	</build>
 
-
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/mvn-repo</url>
-        </repository>
-    </distributionManagement>
-
-
-    <properties>
-        <!-- github server corresponds to entry in ~/.m2/settings.xml -->
-        <github.global.server>github</github.global.server>
-	</properties>
 
 </project>
